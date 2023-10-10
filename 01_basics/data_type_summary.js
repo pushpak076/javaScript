@@ -47,3 +47,19 @@ console.log(typeof bigNumber);
 // Function - function(object)
 // Object - object
 
+//****************** memory in js*************** */
+// stack(primitive) ->change in only duplicate  
+// heap(non-primitive); //change in original
+
+let a=5;
+let b=a;
+b=3;
+console.log(a,b);   //stack it means change in b not affect the a original value
+
+let obj1={
+    name:"xyz",
+    age:23
+};
+let obj2=obj1;
+obj2.name="abc";
+console.log(obj1,obj2);  //change in obj2 affect the obj1 because of reference
