@@ -6,7 +6,7 @@
 // tinderUser.id="1232as";
 // tinderUser.name="harish";
 
-// // console.log(tinderUser);
+// console.log(tinderUser);
 
 // const regularUser={
 //     email:"somesh@gmail.com",
