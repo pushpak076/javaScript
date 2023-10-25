@@ -57,4 +57,5 @@ const myArr=[100,200,300,500];
 function arr(){
     return myArr[0];
 }
-// console.log(arr(myArr));
+console.log(arr(myArr));
+console.log("");
