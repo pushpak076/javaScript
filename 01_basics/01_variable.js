@@ -8,6 +8,7 @@ let accounState;
 
 // accounId=2;   const variable can not change.
 console.log(accounId);
+// commit done 27/1/24:
 
 accounEmail="Nodejs@gmail.com";
 console.table([accounId , accounEmail, accountPasssword , accountCity,accounState]);
